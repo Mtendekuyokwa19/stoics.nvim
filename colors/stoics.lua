@@ -143,3 +143,6 @@ end
 vim.api.nvim_create_user_command("StoicsMarcus", marcus, {})
 vim.api.nvim_create_user_command("StoicsSeneca", seneca, {})
 vim.api.nvim_create_user_command("StoicsEpictitus", epictitus, {})
+
+vim.api.nvim_create_user_command("StoicsEpictitus", epictitus, {})
+	vim.opt.fillchars:append({ eob = " " })
